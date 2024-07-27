@@ -1,0 +1,52 @@
+* {
+    padding: 0;
+    margin: 0;    
+    box-sizing: border-box;
+}
+
+body {
+    text-align: center;
+    background-color: papayawhip;
+        
+}
+
+.container {
+    width: 600px;
+    margin: 20px auto;
+    font-size: 2rem;
+    border: 2px solid black;
+    border-radius: 1.5rem;
+    line-height: 7rem;
+
+        
+}
+
+.container h1 {    
+    border-radius: 20px 20px 0 0;
+    background-color: yellow;
+}
+
+.container li {      
+    border-top: 2px solid black;
+    list-style-type: none;
+}
+
+.container li:last-child {
+    border-radius: 0 0 20px 20px;
+}
+
+.container li a {
+    text-decoration: none;
+    color: black;
+    display: block;
+}
+
+.container li a:hover, .container li a:focus {
+    background-color: #333;
+    color: white;
+}
+
+
+
+
+
